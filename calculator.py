@@ -35,3 +35,16 @@ def divisao(n1: float, n2: float) -> float:
         O quociente dos números.
     """
     return n1 / n2
+
+
+def multiplicacao(n1: int, n2: int) -> int:
+    """Realiza a multiplicação de dois números
+
+        Args:
+            n1: primeiro número.
+            n2: segundo número.
+
+        Returns:
+            O produto dos números.
+        """
+    return n1 * n2
