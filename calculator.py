@@ -22,3 +22,16 @@ def subtracao(n1: int, n2:int) -> int:
         A subtração dos números.
     """
     return n1 - n2
+
+
+def divisao(n1: float, n2: float) -> float:
+    """Realiza a divisão de dois números
+
+    Args:
+        n1: primeiro número.
+        n2: segundo número.
+
+    Returns:
+        O quociente dos números.
+    """
+    return n1 / n2
